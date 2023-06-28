@@ -46,7 +46,7 @@ class Graph:
 
 
 
-customGraph = Graph(8)          # Graph the flows downward:
+customGraph = Graph(8)          # Graph that flows downward:
 customGraph.addEdge("A", "C")   # 
 customGraph.addEdge("C", "E")   #   A   B
 customGraph.addEdge("E", "H")   #    \ / \
